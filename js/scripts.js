@@ -13,3 +13,9 @@ function generateResources (event) {
     event.preventDefault();
     document.querySelector("#resources").innerHTML = resource;
 }
+
+document.querySelector("#lesson_1").addEventListener("touchstart", generateResources);
+function generateResources (event) {
+    event.preventDefault();
+    document.querySelector("#resources").innerHTML = resource;
+}
