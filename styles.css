@@ -35,32 +35,29 @@
 
 .home-page-section {
     display: flex;
-    background-color: rgba(240, 240, 250, .2);
-    
+    /* background-color: rgba(240, 240, 250, .2); */
     flex-wrap: wrap;
     justify-content: space-around;
     border-bottom: solid black 1px;
 }
 
 .item-content {
-    width: 500px;
-    height: 300px;
+    width: 550px;
     margin-top: 20px;
-    
-
+    margin-bottom: 40px;
 }
 
-/* .para-pic {
-    box-shadow: 2px 1px;
+.para-pic {
+    box-shadow: 2px 1px 40px 2px;
    
-} */
+}
 
 .para-text {
     font-size: 22px;
 }
 
 .kids {
-    height: 85%;
+    width: 102%;
     
 }
 
