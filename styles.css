@@ -1,0 +1,124 @@
+#headstuff {
+    background-image:url(./images/school_bldg_cover.jpg);
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-title {
+    color: white;
+    font-size: 36px;
+    text-shadow: 2px 2px 0 black;
+    background: rgba(10, 10, 10, .3);
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+
+.logo {
+    display: flex;
+    height: 90px;
+}
+
+#doe-logo {
+    height: 100%;
+}
+
+/* Elementst in the main class */
+
+.h2-heading {
+    text-align: center;
+}
+
+.home-page-section {
+    display: flex;
+    background-color: rgba(240, 240, 250, .2);
+    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: solid black 1px;
+}
+
+.item-content {
+    width: 500px;
+    height: 300px;
+    margin-top: 20px;
+    
+
+}
+
+/* .para-pic {
+    box-shadow: 2px 1px;
+   
+} */
+
+.para-text {
+    font-size: 18px;
+}
+
+.kids {
+    height: 85%;
+    
+}
+
+
+.lower-page {
+    text-align: center;
+}
+
+/* 5th Grade page */
+
+#head-props {
+    background-image:url('./images/5th_grade_hands_up.jpg');
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.curriculum_5 {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(240, 240, 250, .2);
+    flex-wrap: wrap;
+    border-bottom: solid black 1px;
+}
+
+.subject_tiles {
+    width: 375px;
+    height: 225px;
+    margin-top: 20px;
+}
+
+.history_tile {
+    height: 50%;
+}
+
+
+/* Social Studies Unit page */
+
+#head-props2 {
+    background-image:url('./images/subjects/america-flag.jpg');
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.years-work {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(240, 240, 250, .2);
+    flex-wrap: wrap;
+    border-bottom: solid black 1px;
+}
+
+.instructions {
+    font-size: 16px;
+    font-style: italic;
+}
