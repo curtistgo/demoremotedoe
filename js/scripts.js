@@ -11,11 +11,14 @@ const resource = `
 document.querySelector("#lesson_1").addEventListener("click", generateResources);
 function generateResources (event) {
     event.preventDefault();
-    document.querySelector("#resources").innerHTML = resource;
+    if (document.querySelector("#resources").dataset.resource == 1) {
+        document.querySelector("#resources").innerHTML = '';
+        document.querySelector("#resources").dataset.resource = 0;
+    } else {
+        document.querySelector("#resources").innerHTML = resource;
+        document.querySelector("#resources").dataset.resource = 1;
+    }
+    
 }
 
 document.querySelector("#lesson_1").addEventListener("touchstart", generateResources);
-function generateResources (event) {
-    event.preventDefault();
-    document.querySelector("#resources").innerHTML = resource;
-}
